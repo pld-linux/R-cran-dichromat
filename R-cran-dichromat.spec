@@ -3,7 +3,7 @@
 Summary:	Color Schemes for Dichromats
 Name:		R-cran-%{modulename}
 Version:	2.0r0
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
