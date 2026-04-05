@@ -2,12 +2,12 @@
 %define		modulename	dichromat
 Summary:	Color Schemes for Dichromats
 Name:		R-cran-%{modulename}
-Version:	2.0r0
-Release:	2
+Version:	2.0r0.1
+Release:	1
 License:	GPL v2
 Group:		Applications/Math
-Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	84e194ac95a69763d740947a7ee346a6
+Source0:	https://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
+# Source0-md5:	ce89c0b9bec34cd2d0a4ba4ec64024fb
 URL:		http://socserv.socsci.mcmaster.ca/jfox/
 BuildRequires:	R >= 2.8.1
 Requires(post,postun):	R >= 2.8.1
