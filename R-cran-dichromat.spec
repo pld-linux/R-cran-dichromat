@@ -1,9 +1,10 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	dichromat
+%undefine	_debugsource_packages
 Summary:	Color Schemes for Dichromats
 Name:		R-cran-%{modulename}
 Version:	2.0r0.1
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Math
 Source0:	https://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
